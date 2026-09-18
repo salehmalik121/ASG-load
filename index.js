@@ -2,7 +2,7 @@ const express = require('express');
 const crypto = require('crypto');
 
 const app = express();
-const PORT = 3000;
+const PORT = 80;
 
 app.get('/hashes', (req, res) => {
   const hashes = Array.from({ length: 10 }, () =>
